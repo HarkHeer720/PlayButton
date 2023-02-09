@@ -24,7 +24,7 @@ namespace PlayButton
             SoundPlayer newMario = new SoundPlayer(Properties.Resources.newMario);
             newMario.Play();
 
-            Thread.Sleep(500);
+            Thread.Sleep(501);
             
             StartButton.Text = "Game will start in 3";
 
